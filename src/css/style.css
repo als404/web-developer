@@ -306,6 +306,9 @@ a {
 }
 .footer a {
     color: #888888;
-    text-decoration-line: underline;
+    text-decoration: underline;
+}
+.footer .footer_phone a {
+    text-decoration: none;
 }
 
