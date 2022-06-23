@@ -123,6 +123,7 @@ nav {
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
+/*** Block Name ***/
 .block_name {
     width: 113px;
     height: 24px;
@@ -136,6 +137,11 @@ nav {
     padding: 8px 0;
     margin: 0 auto;
 }
+.block_name.white {
+    color: #000;
+    background: #fff;
+}
+/*** Advantage ***/
 .advantage {
     background-color: #fff;
     padding: 70px 0 65px;
@@ -178,6 +184,8 @@ nav {
             color: #222;
 
         }
+
+/*** Mobile Apps ***/
 .mobile_apps {
     background: #fff url('../img/bg/q_bg.png');
     padding: 48px 0 80px;
@@ -231,9 +239,86 @@ nav {
     left: calc(50% - 29px/2);
     z-index: 5;
 }
-.mobile_apps_item_btn a {
-    text-decoration: none;
-    color:#1EACC7;
-    font-size: 32px;
-    line-height: 29px;
+    .mobile_apps_item_btn a {
+        text-decoration: none;
+        color:#1EACC7;
+        font-size: 32px;
+        line-height: 29px;
+    }
+
+/*** Choice ***/
+.choice {
+    background: url('../img/bg/q_bg.png');
+    position:relative;
+    text-align: center;
+    z-index:1;
+    padding: 56px 0 142px 0;
+}
+.choice .choice_bg {
+    background-color: #000000;
+    height: 500px;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.choice .choice_title {
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+.choice .choice_subtitle {
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 2px;
+    line-height: 17px;
+}
+.choice img{
+    margin-top: 50px;
+}
+.choice .choice_text {
+    font-size: 17px;
+}
+
+/*** Conditions ***/
+.conditions {
+    padding: 68px 0 85px 0;
+
+}
+
+.conditions .conditions_item,
+.conditions .requirements_item {
+    margin-top: 32px;
+}
+.conditions .conditions_title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.conditions .conditions_item_title{
+    font-size: 22px;
+    font-weight:400;
+}
+.conditions .blue{
+    color: #1CA8C3;
+}
+.conditions .red{
+    color: #FF5656;
+}
+.conditions ul li {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.conditions .conditions_item ul li {
+    list-style-image: url(../img/check_blue.png);
+}
+.conditions .requirements_item ul li {
+    list-style-image: url(../img/check_red.png);
 }
