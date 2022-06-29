@@ -127,7 +127,7 @@ nav {
 .block_name {
     width: 113px;
     height: 24px;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 11px;
     line-height: 11px;
     text-align: center;
@@ -170,9 +170,9 @@ nav {
         margin-right: 26px;
 
     }
-    .advantage .advantage_item_info {
+    /* .advantage .advantage_item_info {
 
-    }
+    } */
         .advantage .advantage_item_info .advantage_item_title {
             font-weight: 400;
             font-size: 17px;
@@ -322,3 +322,160 @@ nav {
 .conditions .requirements_item ul li {
     list-style-image: url(../img/check_red.png);
 }
+
+/*** World ***/
+.world {
+    position: relative;
+    background: #000 url(../img/bg/footer_bg.png) top center/cover no-repeat;
+    height: 720px;
+    padding: 49px 0;
+    color: white;
+    text-align: center;
+}
+    .world .world_title {
+        margin-top: 32px;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+    .world .world_subtitle {
+        margin-top: 19px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 17px;
+        
+    }
+    .world a.world_link {
+        display: block;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #1FBAD6;
+        margin-top: 490px;
+    }
+
+/*** Footer ***/
+footer {
+    background: white;
+    padding: 14px 23px 31px;
+    border-bottom: black solid 8px;
+}
+
+footer .footer_social_wrap {
+    margin-top: 37px;
+}
+    footer .footer_social_wrap button {
+        background-color: black;
+        border:0;
+        border-radius:50%;
+        width: 32px;
+        height: 32px;
+        margin-right: 5px;
+    }
+    footer .footer_social_wrap .btn-fb {
+        background: #000 url(../img/icons/fb.png) center center no-repeat;
+    }
+    footer .footer_social_wrap .btn-tw {
+        background: #000 url(../img/icons/tw.png) center center no-repeat;
+    }
+    footer .footer_social_wrap .btn-in {
+        background: #000 url(../img/icons/in.png) center center no-repeat;
+    }
+    footer .footer_social_wrap .btn-inst {
+        background: #000 url(../img/icons/inst.png) center center no-repeat;
+    }
+
+footer .footer_info_wrap {
+    text-align: center;
+}
+    footer .footer_info_wrap .footer_top_line {
+        background-color: #1fbad6;
+        width:300px;
+        height:4px;
+        margin: 0 auto;
+    }
+    footer .footer_info_wrap ul {
+        list-style-type: none;
+        padding:0;
+        margin:0;
+    }
+    
+    footer .footer_info_wrap ul li {
+        display: inline;
+    }
+    
+    footer .footer_info_wrap .first_links {
+        margin-top:33px;
+    }
+    
+    footer .footer_info_wrap .first_links a {
+        color: #070716;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    footer .footer_info_wrap .first_links li {
+        margin-right: 47px;
+    }
+    
+    footer .footer_info_wrap .second_links li {
+        margin-right: 21px;
+    }
+    
+    footer .footer_info_wrap .first_links li:last-child,
+    footer .footer_info_wrap .second_links li:last-child {
+        margin-right: 0;
+    }
+
+    footer .footer_info_wrap .second_links {
+        margin-top:13px;
+
+    }
+    footer .footer_info_wrap .second_links a {
+        color: #999;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 11px;
+        text-decoration: none;
+        text-transform: uppercase;
+
+    }
+    footer .footer_info_wrap .lang_link {
+        color: #1FBAD6;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 11px;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top:19px;
+    }
+
+footer .footer_apps_wrap {
+    margin-top: 37px;
+    text-align: right;
+}
+footer .footer_apps_wrap button {
+        border:0;
+        width: 94px;
+        height:26px;
+        margin-right: 5px;
+    }
+    footer .footer_apps_wrap .btn-apple {
+        background: url(../img/button/btn_apple.png) center center no-repeat;
+    }
+    footer .footer_apps_wrap .btn-google {
+        background: url(../img/button/btn_google.png) center center no-repeat;
+        
+    }
+    footer .footer_apps_wrap .btn-microsoft {
+        background: url(../img/button/btn_windows.png) center center no-repeat;
+        
+    }
